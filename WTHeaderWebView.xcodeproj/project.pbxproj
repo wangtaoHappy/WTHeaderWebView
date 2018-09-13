@@ -7,15 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		933353FF20312AEA001B3D68 /* CustomCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 933353FD20312AEA001B3D68 /* CustomCellTableViewCell.m */; };
+		9333540020312AEA001B3D68 /* CustomCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 933353FE20312AEA001B3D68 /* CustomCellTableViewCell.xib */; };
 		9343299A202D9A8C0027461D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 93432999202D9A8C0027461D /* AppDelegate.m */; };
 		9343299D202D9A8C0027461D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9343299C202D9A8C0027461D /* ViewController.m */; };
 		934329A0202D9A8C0027461D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9343299E202D9A8C0027461D /* Main.storyboard */; };
 		934329A2202D9A8C0027461D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 934329A1202D9A8C0027461D /* Assets.xcassets */; };
 		934329A5202D9A8C0027461D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 934329A3202D9A8C0027461D /* LaunchScreen.storyboard */; };
 		934329A8202D9A8C0027461D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 934329A7202D9A8C0027461D /* main.m */; };
+		934329B0202D9AAB0027461D /* HeaderWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 934329AF202D9AAB0027461D /* HeaderWebViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		933353FC20312AEA001B3D68 /* CustomCellTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomCellTableViewCell.h; sourceTree = "<group>"; };
+		933353FD20312AEA001B3D68 /* CustomCellTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomCellTableViewCell.m; sourceTree = "<group>"; };
+		933353FE20312AEA001B3D68 /* CustomCellTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomCellTableViewCell.xib; sourceTree = "<group>"; };
 		93432995202D9A8C0027461D /* WTHeaderWebView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WTHeaderWebView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93432998202D9A8C0027461D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		93432999202D9A8C0027461D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +32,8 @@
 		934329A4202D9A8C0027461D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		934329A6202D9A8C0027461D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		934329A7202D9A8C0027461D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		934329AE202D9AAB0027461D /* HeaderWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HeaderWebViewController.h; sourceTree = "<group>"; };
+		934329AF202D9AAB0027461D /* HeaderWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeaderWebViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +70,11 @@
 				93432999202D9A8C0027461D /* AppDelegate.m */,
 				9343299B202D9A8C0027461D /* ViewController.h */,
 				9343299C202D9A8C0027461D /* ViewController.m */,
+				934329AE202D9AAB0027461D /* HeaderWebViewController.h */,
+				934329AF202D9AAB0027461D /* HeaderWebViewController.m */,
+				933353FC20312AEA001B3D68 /* CustomCellTableViewCell.h */,
+				933353FD20312AEA001B3D68 /* CustomCellTableViewCell.m */,
+				933353FE20312AEA001B3D68 /* CustomCellTableViewCell.xib */,
 				9343299E202D9A8C0027461D /* Main.storyboard */,
 				934329A1202D9A8C0027461D /* Assets.xcassets */,
 				934329A3202D9A8C0027461D /* LaunchScreen.storyboard */,
@@ -102,7 +115,7 @@
 				TargetAttributes = {
 					93432994202D9A8C0027461D = {
 						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -131,6 +144,7 @@
 			files = (
 				934329A5202D9A8C0027461D /* LaunchScreen.storyboard in Resources */,
 				934329A2202D9A8C0027461D /* Assets.xcassets in Resources */,
+				9333540020312AEA001B3D68 /* CustomCellTableViewCell.xib in Resources */,
 				934329A0202D9A8C0027461D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -144,6 +158,8 @@
 			files = (
 				9343299D202D9A8C0027461D /* ViewController.m in Sources */,
 				934329A8202D9A8C0027461D /* main.m in Sources */,
+				934329B0202D9AAB0027461D /* HeaderWebViewController.m in Sources */,
+				933353FF20312AEA001B3D68 /* CustomCellTableViewCell.m in Sources */,
 				9343299A202D9A8C0027461D /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,12 +294,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2KN6539LSM;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = Y4FK8UXDXW;
 				INFOPLIST_FILE = WTHeaderWebView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = wangtao.WTHeaderWebView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "bdc12bb6-856e-4b7d-b6fb-79cc54f41bb2";
+				PROVISIONING_PROFILE_SPECIFIER = "PP For All";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -292,12 +310,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2KN6539LSM;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = WTHeaderWebView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = wangtao.WTHeaderWebView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
